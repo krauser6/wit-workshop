@@ -1,0 +1,12 @@
+body {
+	background-color: blue;
+	font-family: 'Quicksand', sans-serif;
+	color: yellow;
+}
+.plain-list {
+	list-style: none;
+}
+#profile {
+	width: 300px;
+	float: right;
+}
