@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<h1>Contact Me</h1>
+	<ul class="nav nav-pills">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+	<div class="container">
+		<form>
+			<div class="form group">
+			<label for="inputName">Name</label>
+			<input type="text" name="inputName" class="form-control" placeholder="Enter Your Name">
+			</div>
+			<div class="form-group">
+			<label>Email</label>
+			<input type="email" name="inputEmail" class="form-control" placeholder="Enter Your Email">
+			</div>
+			<div class="form-group">
+			<label for="inputMessage">Message</label>
+			<textarea class="form-control" rows="4" name="inputMessage" placeholder="Tell me what's on your mind!"></textarea>
+			</div>
+			<div class="form-group">
+				<h4>Interests</h4>
+				<label class="checkbox-inline"><input type="checkbox" value="programming">Programming</label>
+				<label class="checkbox-inline"><input type="checkbox" value="marketing">Marketing</label>
+				<label class="checkbox-inline"><input type="checkbox" value="seo">SEO</label>
+		</form>
+	</div>
+	<div class="form-group">
+		<h4>Mailing List</h4>
+		<div class="radio">
+			<label>
+				<input type="radio" value="yes" name="list">I love mailing lists.
+			</label>
+		</div>
+		<div class="radio">
+			<label>
+				<input type="radio" value="no" name="list"> Please don't.
+			</label>
+		</div>
+	</div>
+	<button type="button" class="btn btn-send">Send</button>
+</body>
+</html>

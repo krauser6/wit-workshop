@@ -1,7 +1,9 @@
 body {
-	background-color: blue;
-	font-family: 'Quicksand', sans-serif;
-	color: yellow;
+	font-family: 'Slabo 27px', serif;
+	background-color: white;
+	color: blue;
+}
+h1 {text-align: center;
 }
 .plain-list {
 	list-style: none;
@@ -9,4 +11,13 @@ body {
 #profile {
 	width: 300px;
 	float: right;
+}
+
+a:hover {
+	color: orange;
+}
+@media (max-width: 800px) {
+	#profile {
+		width:120px;
+	}
 }
